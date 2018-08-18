@@ -1,0 +1,33 @@
+package javaapplication11;
+
+import java.util.Scanner;
+
+
+
+/**
+ *
+ * @author Ali
+ */
+public class JavaApplication11 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        //äÔÇä ãí ÏåÏ ÚÏÏ ˜Çãá ÇÓ íÇ ÎíÑ
+        int Number,sum=0;
+        System.out.println("please Enter a Number:");
+        Scanner input = new Scanner(System.in);
+        Number=input.nextInt();
+        for(int i=1;i<Number;i++){
+         if(Number%i==0){
+         sum+=i;
+         if(sum==Number){
+         System.out.println("the Number is Complete!!"); }
+         }
+          }
+        
+        
+        
+}
+}
